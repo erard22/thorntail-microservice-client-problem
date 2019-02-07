@@ -35,11 +35,6 @@
                 <groupId>io.thorntail</groupId>
                 <artifactId>thorntail-maven-plugin</artifactId>
                 <version>${version.thorntail}</version>
-                <configuration>
-                    <properties>
-                        <echo.port>${echo.port}</echo.port>
-                    </properties>
-                </configuration>
                 <executions>
                     <execution>
                         <goals>
@@ -52,6 +47,11 @@
                         <goals>
                             <goal>start</goal>
                         </goals>
+                        <configuration>
+                            <properties>
+                                <echo.port>${echo.port}</echo.port>
+                            </properties>
+                        </configuration>
                     </execution>
                     <execution>
                         <id>stop</id>
