@@ -1,4 +1,4 @@
-package com.erard22.demo.rest;
+package ch.erard22.demo.rest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
